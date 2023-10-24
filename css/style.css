@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/* Miscellaneous */
+.shadow{
+  -webkit-box-shadow: 10px 10px 37px -21px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 37px -21px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 37px -21px rgba(0,0,0,0.75);
+}
+/* Fonts */
+.dancing-script {
+    font-family: 'Dancing Script', cursive;
+}
+.lora{
+  font-family: 'Lora', serif;
+}
+/* Main Menu */
+.navbar{
+    margin-top: 25px;
+}
+.navbar .on-menu{
+  font-size: 1.3rem !important;
+  font-weight: 400;
+}
+.navbar .navbar-item{
+  color:rgb(82, 82, 82) !important;
+}
+.navbar>.container {
+  min-height: 0rem !important;
+}
+/* Centered Menu */
+.navbar.has-centered-menu .navbar-start {
+  flex-grow: 1;
+  justify-content: center;
+}
+
+/* Centered Logo Collapsed*/
+.navbar.has-centered-logo .navbar-start,
+.navbar.has-centered-logo .navbar-end {
+  flex: 1 1 0;
+}
+.navbar.has-centered-logo .navbar-start {
+  justify-content: flex-end;
+}
+.navbar.has-centered-logo .navbar-end {
+  justify-content: flex-start;
+}
+
+/* Centered Logo Expanded*/
+.navbar.has-centered-logo-alt .navbar-start,
+.navbar.has-centered-logo-alt .navbar-end {
+  flex: 1 1 0;
+}
+
+/* Centered Logo Above */
+.navbar.has-logo-above {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centered Logo With additional Menu*/
+.navbar.has-centered-logo-alt2 .navbar-menu {
+  flex-wrap: wrap;
+}
+.navbar.has-centered-logo-alt2 .navbar-start,
+.navbar.has-centered-logo-alt2 .navbar-end {
+  flex: 1 1 0;
+}
+.navbar.has-centered-logo-alt2 .navbar-wide.navbar-start {
+  flex: 1 1 100%;
+  justify-content: center;
+}
+.navbar-dropdown{
+  margin-left: -350px;
+}
+@media(max-width: 915px) {
+  .navbar-dropdown{
+    margin-left: 0px ;
+  }
+}
+.dropdown-image-div{
+  margin-right: -34px;
+}
+.dropdown-image{
+  width: 350px; 
+  height: 250px; 
+}
+@media(min-width: 1180px) {
+  .on-menu{
+    font-size: 1.125rem;
+    padding: 0.5rem 3rem;
+  }
+}
+.navbar-link:not(.is-arrowless)::after{
+  right: 40px;
+  top: 29px;
+  height: 7px;
+  width: 7px;
+}
+/** Sidebar **/
+.menu .menu-list{
+  line-height: 15px;
+  margin-top: -15px;
+}
+/** Hero **/
+.hero{
+  border-radius: 15px !important;
+  height: 100% !important;
+}
+/** New Arrivals **/
+.new-arivals img{
+  border-radius: 15px;;
+}
+.new-arivals .new-arrivals-text{
+  color: #ffffff;
+  font-weight: 500;
+  position: absolute;
+  bottom: 25px;
+  right: 16px;
+}
+.new-arivals-title{
+  line-height: 50px;
+}
+/** Events **/
+.event-date{
+  font-weight: 600;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+
+  line-height: 25px;
+}
+.date .number{
+  font-size: 2rem;
+  background-color: transparent;
+}
+.event-date .date{
+  margin-top: 18px;
+}
+.event-date .month{
+  margin-bottom: -50px;
+}
+/** Event Card **/
+.card{
+  border-radius: 15px;
+}
+.card-event{
+  min-width: 100%;
+}
+.card-event a{
+  color: #34ace0 !important;
+}
+/** About **/
+.about-image img{
+  border-radius: 15px;
+}
+.about-text p{
+  line-height: 35px;
+  text-indent: 50px;
+}
+.accordions .accordion .accordion-header {
+  border-radius: 15px !important;
+}
+.accordions .accordion .accordion-header+.accordion-body{
+  border-radius: 15px !important;
+  border: none !important; 
+}
+.accordions .accordion {
+  border-radius: 15px !important;
+  background-color: transparent !important;
+}
+.about .card img{
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+}
+/** Blog **/
+.blog-text p{
+  line-height: 35px;
+}
+.blog-image img{
+  border-radius: 15px;
+}
+/** Contact **/
+.contact textarea{
+  border-radius: 15px;
+}
+.contact-form{
+  margin-top: -25px;
+}
+/** Google Map **/
+.google-map {
+  margin-top: -20px;
+}
+/** Footer **/
+footer ul li{
+  padding: 5px 0 5px 0;
+}
+footer ul li a{
+  color: #ffffff;
+  font-size: 1rem;;
+}
+footer .bottom-footer{
+  margin-bottom: -25px;
+}

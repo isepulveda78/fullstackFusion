@@ -1,0 +1,21 @@
+{
+  "name": "fullstack-fusion",
+  "version": "1.0.0",
+  "description": "E-commerce Theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "E-commerce"
+  ],
+  "author": "Israel Sepulveda",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "bulma-accordion": "^2.0.1"
+  }
+}

@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;300;400&display=swap');
+
+// Set your brand colors
+$green: #218c74;
+$primaryColor: #ff793f;
+$lightBlue: #34ace0;
+$successColor: #33d9b2;
+$warningColor: #ffda79;
+$red: #ff5252;
+$dark: rgb(74, 74, 74);
+// Update Bulma's global variables
+$family-sans-serif: 'Hanken Grotesk', sans-serif;
+$primary: $primaryColor;
+$link: $dark;
+$info: $lightBlue;
+$success: $successColor;
+$warning: $warningColor;
+$danger: $red;
+
+@import "../node_modules//bulma/bulma.sass";
